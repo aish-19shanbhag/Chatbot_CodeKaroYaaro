@@ -1,0 +1,125 @@
+
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you please mail us on info@codekaroyaaro.com", "Please give me more info", "Not sure I understand ,do call us on +91 8010996763"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through courses list", "Starter,Intermediate,Professional levels of courses", "Offering support for little coders, Live Interactive classes, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+        {"tag": "courses",
+         "patterns": ["what courses do you provide?", "How many courses are provided?", "Give me a list of courses available", "List all courses suitable for my kid", "Which courses do help my kid" ],
+         "responses": ["WebDevelopment MobileAppDevelopment ArtificialIntelligence Pythonprogramming GameAppDevelopment"],
+         "context": [""]
+        },
+        {"tag": "coding",
+         "patterns": ["Why coding is important?", "Why should my kid learn coding?", "Why coding is essential?", "I want to have a look at the importance of coding", "Is coding needed?" ],
+         "responses": ["Coding gives your child a competitive edge","Coding teaches persistence","Coding improves problem-solving skills","Coding improves creativity"],
+         "context": [""]
+        },
+        {"tag": "programming_language",
+         "patterns": ["What programming language is suitable for my child to learn?", "What language is in trending?", "Which language does everyone expect a child to know?", "Which coding language is good to begin with?", "Guide us about the programming languages." ],
+         "responses": ["This depends on the age of the child and if the child has prior knowledge of computer programming. Call to talk with our counselor to find out which course is most appropriate for your child."],
+         "context": [""]
+        },
+        {"tag": "change",
+         "patterns": ["Who should I contact to change my batch timing or teacher?","What if my kid wants to change the assigned teacher the batch?","My kid wants to have a change"],
+         "responses": ["For changing of Batch Timing or Teacher you need to contact your dedicated Academic Mentor."],
+         "context": [""]
+        },
+        {"tag": "course_enroll",
+         "patterns": ["How do we enroll?", "What are the ways to enroll to the course?", "ways to enroll", "I want to enroll", "Can I enroll?" ],
+         "responses": ["Choose Course which you want to enroll yourself.Fill the details Make your payment and enjoy CODING"],
+         "context": ["courses_levels"]
+        },
+        {"tag": "course_levels",
+         "patterns": [],
+         "responses": ["Loading starter,intermediate and professional courses..."],
+         "context": [""]
+        },
+        {"tag": "class_enroll",
+         "patterns": ["How do we enroll?", "What are the ways to enroll to the classes?", "ways to enroll to classes", "I want live classes", "Can I enroll to the classes?" ],
+         "responses": ["Choose ClassLevel which you want to enroll yourself.Fill the details Make your payment and enjoy CODING"],
+         "context": ["classes_levels"]
+        },
+         {"tag": "course_levels",
+         "patterns": [],
+         "responses": ["Loading basic,starter and yearly plans..."],
+         "context": [""]
+        },
+        {"tag": "partners",
+         "patterns": ["Do you have any partners?", "Any corporate partners for the company?", "I want to know about your corporatepartners"  ],
+         "responses": ["Yes we do have partners like GreyKernel,FolksMotor and PLMNordic"],
+         "context": [""]
+        },
+        {"tag": "values",
+         "patterns": ["what values do your copmany have?","What are those values on your company is based on?","Company core values"],
+         "responses": ["Technologies,innovations,project based learning,Entrepreneurship,DesignThinkingApproach,Experienced and friendly instructors"],
+         "context": [""]
+        },
+        {"tag": "statistics",
+         "patterns": ["Can you show us the statistics so far?","What do the company statistics say?","Testimonial statistics"],
+         "responses": ["10000+ students and 480000+ classes conducted"],
+         "context": [""]
+        },
+        {"tag": "courseprice",
+         "patterns": ["what are the prices for the courses?","May I know about the course pricing","Price for a course"],
+         "responses": ["4500 INR for starter,8000 INR for intermediate and 12000 INR for professional"],
+         "context": [""]
+        },
+        {"tag": "liveclassesprice",
+         "patterns": ["what are the prices for the live classes?","May I know about the live classes pricing","Price for the live classes"],
+         "responses": ["2800 INR for basic,15360 INR for starter and 26880 INR for yearly plan"],
+         "context": [""]
+        },
+        {"tag": "coursecontents",
+         "patterns": ["what are the contents of the courses?","course contents","What does a course contain?"],
+         "responses": ["For 1-4th grades we have Scratch Programming, Dance With Coding, Coding With Kids,Artist Lab and for 5-10+ grades we have Introduction to programming languages,GameApp+MobileApp+Website"],
+         "context": [""]
+        },
+        {"tag": "liveclassescontents",
+         "patterns": ["what are the contents of the live classes?","live classes contents"],
+         "responses": ["We teach Introduction to programming languages,GameApp+MobileApp+Website"],
+         "context": [""]
+        },
+        {"tag": "difference",
+         "patterns": ["What is the difference between the various levels?","How levels are different?"],
+         "responses": ["The number of sessions and effectiveness of the course."],
+         "context": [""]
+        },
+        {"tag": "contact",
+         "patterns": ["How to contact the company?","contact the company","How to reach out to the company?"],
+         "responses": ["you can call us on +91 8010996763 or you can drop a mail on info@codekaroyaaro.com"],
+         "context": [""]
+        },
+        {"tag": "special",
+         "patterns": ["How advance is your company?","company specialities","What makes your company special from other companies?"],
+         "responses": ["Online Courses,Learn Anywhere,Expert Teacher,Get Certificate"],
+         "context": [""]
+        },
+        {"tag": "achievements",
+         "patterns": ["showcase student achievements","what did students develop during the courses","student works"],
+         "responses": ["AnimalSoundApp,DemonWarriorApp,VehicleSoundApp,AnimalFootballBattleGame,FlappyBirdGame"],
+         "context": [""]
+        }
+
+   ]
+}
